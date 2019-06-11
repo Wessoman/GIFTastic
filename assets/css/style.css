@@ -9,9 +9,10 @@ body{
     margin: 5px;
     border-radius: 12px;
     float: left;
-    color:grey;
-    background-color: blue;
+    color:white;
+    background-color: crimson;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 #justice{
