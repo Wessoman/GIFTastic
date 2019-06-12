@@ -47,7 +47,7 @@ $(document).ready(function () {
         var seltopic = event.target.id;
 
         // create an ajax call to pull data from glipghy when the button is clicked
-        $.ajax({ url: "http://api.giphy.com/v1/gifs/search?q=" + seltopic + "&api_key=UPdOu5UCPQmeYuoJ4VKtSMhGZGyntyeB&limit=10", method: "GET" }).then(function (response) {
+        $.ajax({ url: "https://api.giphy.com/v1/gifs/search?q=" + seltopic + "&api_key=UPdOu5UCPQmeYuoJ4VKtSMhGZGyntyeB&limit=10", method: "GET" }).then(function (response) {
 
             // clear the space where the gifs will be shown
             $("#displarea").empty();
